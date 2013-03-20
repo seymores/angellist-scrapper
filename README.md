@@ -1,9 +1,10 @@
 # angellist-scrapper
 
-Scrap Angellist public pages for trend data.
+Scrap Angellist public pages for trend, new startup, and etc data.
 
 ## Usage
 
+```
 (require '[angellist-scrapper.core :as core] )
 (pprint (core/latest-trend))
 
@@ -39,6 +40,8 @@ Scrap Angellist public pages for trend data.
   :url "https://angel.co/portlandseedfund",
   :name "Portland Seed Fund",
   :title ""}
+  ...
+```
 
 
 ## License
